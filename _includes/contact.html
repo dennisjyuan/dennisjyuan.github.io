@@ -19,6 +19,7 @@
     </li>
     {% endif %}
 
+
     {% if sidebar.website %}
     <li class="website"><i class="fas fa-globe-americas"></i>
       <a href="http://{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
@@ -34,6 +35,12 @@
     {% if sidebar.github %}
     <li class="github"><i class="fab fa-github"></i>
       <a href="http://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.scholar %}
+    <li class="scholar"><i class="fas fa-globe-americas"></i>
+      <a href="https://scholar.google.com/citations?user={{ sidebar.scholar }}" target="_blank">{{ "Google Scholar" }}</a>
     </li>
     {% endif %}
 

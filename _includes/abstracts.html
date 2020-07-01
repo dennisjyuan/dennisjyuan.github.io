@@ -1,0 +1,32 @@
+{% assign abstracts = site.data.data.abstracts %}
+{% if abstracts %}
+<section class="section abstracts-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ abstracts.title }}
+  </h2>
+
+  {% if abstracts.intro %}
+  <div class="intro">
+    {{ abstracts.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for abstracts in abstracts.papers %}
+  <div class="item">
+    {% if abstracts.link %}
+      <li><a href="{{ abstracts.link }}">{{ abstracts.title }}</a></li>
+    {% else %}
+      <li>{{ abstracts.title }}</li>
+    {% endif %}
+    <div class="publication-authors">{{ abstracts.authors }}</div>
+    <div class="publication-conference">{{ abstracts.conference }}</div>
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}

@@ -14,6 +14,7 @@ sidebar:
     # Sidebar links
     email: dennis.yuan@columbia.edu
     phone: 
+    scholar: Nsg0R7cAAAAJ&hl=
     website: dennisjyuan.github.io #do not add http://
     linkedin: dennisjyuan
     github: dennisjyuan
@@ -29,21 +30,9 @@ sidebar:
       - idiom: English
         level: Native
 
-      - idiom: 
-        level: 
+      - idiom: Chinese
+        level: Proficient
 
-      - idiom: 
-        level: 
-
-    interests:
-      - item: 
-        link:
-
-      - item: 
-        link:
-
-      - item: 
-        link:
 
 career-profile:
     title: Research interests
@@ -53,10 +42,11 @@ career-profile:
 
       
 education:
-    - degree: PhD candidate
+    - degree: PhD candidate, Biomedical Engineering
       university: Columbia University
       time: 2017-Present (Expected 2020)
       details: |
+        
 
     - degree: MSc, Biomedical Engineering
       university: Columbia University
@@ -67,115 +57,153 @@ education:
       university: University of California, Los Angeles
       time: 2011-2015
       details: |
+       
 
 experiences:
-    - role: Lead Developer
+
+    - role: Graduate Research Assistant, Columbia University
       time: 2015 - Present
-      company: Startup Hubs, San Francisco
+      company: Department of Biomedical Engineering (advised by Lance Kam, PhD)
+          
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        Thesis: Mechanical Regulation of T cell activation
+          - Project: Effect of mechanical properties of antigen presenting systems in T cell activation 
+          - Project: Electrospun polymer fiber platform for ex vivo expansion of exhausted T cells
+    
+    - role: TL1 Precision Medicine Fellow, Columbia University Irving Medical Center
+      time: 2017 - 2020
+      company: Irving Institute for Clinical and Translational Research
+          
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+          - Project: Personalization of T cell production for cellular immunotherapy
+          
+    - role: Undergraduate Researcher, UCLA
+      time: 2014-2015
+      company: Department of Bioengineering (advised by Dino di Carlo, PhD)
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+          - Project: Pressure adjustable microfluidic platform for transfection by mechanical poration
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+    - role: Undergraduate Researcher, UCLA
+      time: 2013 - 2015
+      company: California NanoSystems Institute (advised by Hsian-Rong Tseng, PhD)
+      details: |
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+          - Project: Thermoresponsive NanoVelcro Assay for purification of circulating tumor cells
+          - Project: Investigation of Wnt/beta-catenin signaling pathway in EMT in lung cancer
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+ 
     papers:
-      - title: The Art of Computer Programming
+      - title: Biphasic response of T cell activation to substrate stiffness. 
         link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+        authors: Yuan DJ and Kam LC. 
+        conference: Under revisions
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+      - title: Enhanced activation and expansion of T cells using mechanically soft elastomer fibers.
         link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+        authors: Dang A, De Leo S, Bogdanowicz DR, Yuan DJ, Fernandes SM, Brown JR, Lu HH, Kam LC 
+        conference: Advanced Biosystems (2018)
 
-      - title: A syntax directed compiler for Algol 60
+      - title: Improving T cell Expansion with a Soft Touch. 
         link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        authors: Lambert L, Goebrecht GKE, De Leo SE, O’Connor RS, Nunez-Cruz S, Li T, Yuan J, Milone MC, Kam LC
+        conference: Nano Letters, 17(2), 821-826 (2017)
+
+      - title: Astrocyte elevated gene-1(AEG-1) induces epithelial-mesenchymal transition in lung cancer through activating Wnt/beta-catenin signaling. 
+        link: "#"
+        authors: He W, He S, Wang Z, Shen H, Fang W, Zhang Y, Qian W, Lin M, Yuan J, Wang J, Huang W, Wang L, Ke Z 
+        conference: BMC Cancer, 15(1), 107. (2015)
+
+presentations:
+    title: Presentations
+    intro: |
+ 
+    papers:
+      - title: Individualized expansion of T cells from CLL patients for immunotherapy. (Podium)  
+        link: "#"
+        authors: Yuan DJ, Fernandes SM, Brown JR, Kam LC 
+        conference: American Association of Immunology. Honolulu, HI. (2020 May)
+
+      - title: Personalization of T cell production for cellular immunotherapy. (Poster)
+        link: "#"
+        authors: Yuan DJ, Fernandes SM, Brown JR, Kam LC  
+        conference: Association for Clinical and Translational Science. Washington, DC. (2020 April)
+
+      - title: Biphasic Response of T Activation to Substrate Rigidity. (Podium)
+        link: "#"
+        authors: Yuan DJ and Kam LC. 
+        conference: Biomedical Engineering Society. Philadephia, PA. (2019 October)
+
+      - title: Biphasic Response of T Activation to Substrate Rigidity. (Poster)
+        link: "#"
+        authors: Yuan DJ and Kam LC. 
+        conference: Society for Biomaterials. Seattle, WA. (2019 April)
+
+      - title: Biphasic Response of T Activation to Substrate Rigidity. (Poster)
+        link: "#"
+        authors: Yuan DJ and Kam LC. 
+        conference: Gordon Research Conference, Immunochemistry and Immunobiology. West Dover, VT. (2018 June)
+      
+      - title: Biphasic Response of T Activation to Substrate Rigidity. (Podium)
+        link: "#"
+        authors: Yuan DJ and Kam LC. 
+        conference: Biomedical Engineering Society. (2017 October)
+
+abstracts:
+    title: Accepted Abstracts
+    intro: |
+ 
+    papers:
+      - title: Individualized expansion of T cells from CLL patients for immunotherapy
+        link: "#"
+        authors: Yuan DJ, Fernandes SM, Brown JR, Kam LC 
+        conference: J Immunol, 204 (1 Supp), 86.20. (2020)
+
+projects:
+    title: Projects
+    intro: 
+
+    assignments:
+      - title: Tumor detection from pathology images
+        link: https://github.com/dennisjyuan/pathology_tumor_detector
+        tagline: "Image segmentation and deep learning of lymph node images in breast cancer. "
+
+      - title: T cell pMHC affinity predictor
+        link: https://github.com/dennisjyuan/MHC_predictor-
+        tagline: "Neural network for predicting affinity of pMHC to HLA alleles."
+
+      - title: Melanoma lesion predictor
+        link: https://github.com/dennisjyuan/melanoma_lesion_classifier
+        tagline: "Transfer learning for classifying benign and malignant melanoma lesions"
+
+      
+      
+
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Flow cytometry
+        level: 90%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Electrospinning
+        level: 80%
 
-      - name: Angular
-        level: 98%
+      - name:  Cell culture
+        level: 90%
 
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: Fluorescent and confocal microscopy
         level: 60%
 
+      - name: Python
+        level: 70%
+
+      - name: R
+        level: 70%
+
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    
