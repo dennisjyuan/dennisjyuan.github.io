@@ -37,25 +37,25 @@ sidebar:
 career-profile:
     title: Research interests
     summary: |
-      "My research interests are in utilizing multi-omics datasets to investigate remodeling of the immune system by cancer and treatments.
-      My graduate  research is focused on biomaterial design to direct T cell functions, utilizing insights from the role of mechanics in T cell activation and the role of donor variability and disease progression on T cell dysfunction.   " 
+      My research interests are in utilizing multi-omics datasets to investigate remodeling of the immune system by cancer and treatments.
+      My graduate  research is focused on biomaterial design to direct T cell functions, utilizing insights from the role of mechanics in T cell activation and the role of donor variability and disease progression on T cell dysfunction.
 
       
 education:
     - degree: PhD candidate, Biomedical Engineering
       university: Columbia University
-      time: 2017-Present (Expected 2020)
+      time: 2017 - Present (Expected 2020)
       details: |
         
 
     - degree: MSc, Biomedical Engineering
       university: Columbia University
-      time: 2015-2017
+      time: 2015 - 2017
       details: |
         
     - degree: BSc, Bioengineering, Magna Cum Laude
       university: University of California, Los Angeles
-      time: 2011-2015
+      time: 2011 - 2015
       details: |
        
 
@@ -78,7 +78,7 @@ experiences:
           - Project: Personalization of T cell production for cellular immunotherapy
           
     - role: Undergraduate Researcher, UCLA
-      time: 2014-2015
+      time: 2014 - 2015
       company: "Department of Bioengineering (advisor: Dino di Carlo, PhD)"
       details: |
           - Project: Pressure adjustable microfluidic platform for transfection by mechanical poration
