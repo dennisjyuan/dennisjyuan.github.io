@@ -23,8 +23,9 @@
     {% else %}
       <li>{{ presentations.title }}</li>
     {% endif %}
-    <div class="publication-authors">{{ presentations.authors }}</div>
-    <div class="publication-conference">{{ presentations.conference }}<br></div>
+    <div class="presentations-authors">{{ presentations.authors }}</div>
+    <div class="presentations-conference">{{ presentations.conference }}</div>
+    <br>
   </div><!--//item-->
   {% endfor %}
 
