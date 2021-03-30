@@ -8,13 +8,13 @@ sidebar:
 
     # Profile information
     name: Dennis J. Yuan
-    tagline: TL1 Fellow at Columbia BME
+    tagline: Postdoctoral Fellow at Weill Cornell Medicine and New York Genome Center
     avatar: headshot2.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: dennis.yuan@columbia.edu
+    email: dyuan@nygenome.org
     phone: 
-    scholar: Nsg0R7cAAAAJ&hl=
+    scholar: IpkcO40AAAAJ
     website: dennisjyuan.github.io #do not add http://
     linkedin: dennisjyuan
     github: dennisjyuan
@@ -44,7 +44,7 @@ career-profile:
 education:
     - degree: PhD candidate, Biomedical Engineering
       university: Columbia University
-      time: 2017 - Present (Expected 2020)
+      time: 2017 - 2021
       details: |
         
 
@@ -61,8 +61,19 @@ education:
 
 experiences:
 
+   - role: Postdoctoral Associate
+      time: 2021 - Present
+      company: "New York Genome Center"
+
+    - role: Postdoctoral Fellow
+      time: 2021 - Present
+      company: "Weill Cornell Medicine (advisor: Dan Landau, MD PhD)"
+          
+      details:
+ 
+
     - role: Graduate Research Assistant, Columbia University
-      time: 2015 - Present
+      time: 2015 - 2021
       company: "Department of Biomedical Engineering (advisor: Lance Kam, PhD)"
           
       details: |
@@ -99,8 +110,8 @@ publications:
     papers:
       - title: Biphasic response of T cell activation to substrate stiffness. 
         link: "#"
-        authors: Yuan DJ and Kam LC. 
-        conference: Under revisions
+        authors: Yuan DJ, Shi L,  Kam LC. 
+        conference: Biomaterials (2021)
 
       - title: Enhanced activation and expansion of T cells using mechanically soft elastomer fibers.
         link: "#"
