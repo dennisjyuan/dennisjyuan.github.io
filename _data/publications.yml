@@ -1,0 +1,97 @@
+# ---------------------------------------------------------------------------
+# All publications live here. To add one, copy an existing block.
+#
+#   theme:   which research theme it belongs to (must match an id in
+#            _data/themes.yml). Use "other" to keep it out of the Research
+#            section but still list it under Publications.
+#   authors: HTML is allowed -- wrap your own name in <strong> tags.
+#   links:   any label/url pairs you want shown as buttons.
+# Order in this file is the order shown on the page (newest first).
+# ---------------------------------------------------------------------------
+
+main:
+
+  - title: "Genotype-to-phenotype mapping of somatic clonal mosaicism via single-cell co-capture of DNA mutations and mRNA transcripts"
+    authors: "<strong>Yuan DJ</strong>, Zinno J, Botella T, Dhingra D, Wang S, Hawkins AG, Swett A, Sotelo J, Raviram R, Hughes C, Potenski C, Godfrey KD, Ainsworth KM, Xu S, Que J, Abrams JA, Yokoyama A, Kakiuchi N, Ogawa S, Landau DA"
+    venue: "<em>Cancer Discovery</em>"
+    year: 2026
+    venue_short: "Cancer Discov"
+    theme: genotype-phenotype
+    highlight: true
+    links:
+      - label: Paper
+        url: https://doi.org/10.1158/2159-8290.CD-24-0853
+      - label: Preprint
+        url: https://doi.org/10.1101/2024.05.22.595241
+      - label: Press
+        url: https://news.cornell.edu/stories/2026/01/pre-cancerous-states-identified-seemingly-normal-aging-tissues
+
+  - title: "A comprehensive view of somatic mosaicism by single-cell DNA analysis"
+    authors: "Luquette LJ, Coorens THH, Natu A, Suvakov M, Caplin A, Jun MS, Mo A, Pelt J, Anderson L, Berselli M, Bhamidipati S, Blanchard T, Brew J, Chun HE, Chun H, Dehankar MK, Feng WC, Furatero R, Grochowski CM, Ho E, Jang Y, Kottapalli K, Leonard MK, Lim NS, Lindsay T, Nicholson S, Raimondi I, Runnels A, Scharlee C, Shin J, Veit AD, VonDran M, Wang Y, <strong>Yuan DJ</strong>, Zhao Y, SMaHT Single Cell Focus Group, Bell TJ, Ardlie K, Doddapaneni H, Fulton R, Germer S, Landau D, Oh JW, Park PJ, Vaccarino FM, Walsh C, Abyzov A"
+    venue: "<em>bioRxiv</em> (preprint)"
+    year: 2025
+    venue_short: "bioRxiv"
+    theme: clonal-evolution
+    links:
+      - label: Preprint
+        url: https://doi.org/10.1101/2025.10.31.685648
+
+  - title: "Large-scale single-cell phylogenetic mapping of clonal evolution in the human aging esophagus"
+    authors: "Prieto T, <strong>Yuan DJ</strong>, Zinno J, Hughes C, Midler N, Kao S, Huuhtanen J, Raviram R, Fotopoulou F, Ruthen N, Rajagopalan S, Schiffman JS, D'Avino AR, Yoon SH, Sotelo J, Omans ND, Wheeler N, Garces A, Pradhan B, Cheng AP, Robine N, Potenski C, Godfrey K, Kakiuchi N, Yokoyama A, Ogawa S, Abrams J, Raimondi I, Landau DA"
+    venue: "<em>bioRxiv</em> (preprint)"
+    year: 2025
+    venue_short: "bioRxiv"
+    theme: clonal-evolution
+    links:
+      - label: Preprint
+        url: https://doi.org/10.1101/2025.10.11.681805
+
+  - title: "Paired plus-minus sequencing is an ultra-high throughput and accurate method for dual strand sequencing of DNA molecules"
+    authors: "Cheng AP, Rusinek I, Sossin A, Widman AJ, Meiri E, Krieger G, Hirschberg O, Tov DS, Gilad S, Jaimovich A, Barad O, Avaylon S, Rajagopalan S, Potenski C, Prieto T, <strong>Yuan DJ</strong>, et al., Faltas BM, Landau DA"
+    venue: "<em>bioRxiv</em> (preprint)"
+    year: 2025
+    venue_short: "bioRxiv"
+    theme: other
+    links:
+      - label: Preprint
+        url: https://doi.org/10.1101/2025.08.11.669689
+
+  - title: "Biphasic response of T cell activation to substrate stiffness"
+    authors: "<strong>Yuan DJ</strong>, Shi L, Kam LC"
+    venue: "<em>Biomaterials</em>, 273:120797"
+    year: 2021
+    venue_short: "Biomaterials"
+    theme: t-cell
+    links:
+      - label: Paper
+        url: https://doi.org/10.1016/j.biomaterials.2021.120797
+
+  - title: "Enhanced activation and expansion of T cells using mechanically soft elastomer fibers"
+    authors: "Dang A, De Leo S, Bogdanowicz DR, <strong>Yuan DJ</strong>, Fernandes SM, Brown JR, Lu HH, Kam LC"
+    venue: "<em>Advanced Biosystems</em>, 2(2):1700167"
+    year: 2018
+    venue_short: "Adv Biosyst"
+    theme: t-cell
+    links:
+      - label: Paper
+        url: https://doi.org/10.1002/adbi.201700167
+
+  - title: "Improving T cell expansion with a soft touch"
+    authors: "Lambert L, Goebrecht GKE, De Leo SE, O'Connor RS, Nunez-Cruz S, Li T, <strong>Yuan J</strong>, Milone MC, Kam LC"
+    venue: "<em>Nano Letters</em>, 17(2):821-826"
+    year: 2017
+    venue_short: "Nano Lett"
+    theme: t-cell
+    links:
+      - label: Paper
+        url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5504474/
+
+  - title: "Astrocyte elevated gene-1 (AEG-1) induces epithelial-mesenchymal transition in lung cancer through activating Wnt/beta-catenin signaling"
+    authors: "He W, He S, Wang Z, Shen H, Fang W, Zhang Y, Qian W, Lin M, <strong>Yuan J</strong>, Wang J, Huang W, Wang L, Ke Z"
+    venue: "<em>BMC Cancer</em>, 15(1):107"
+    year: 2015
+    venue_short: "BMC Cancer"
+    theme: other
+    links:
+      - label: Paper
+        url: https://doi.org/10.1186/s12885-015-1124-1

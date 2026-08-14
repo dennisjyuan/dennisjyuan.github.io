@@ -1,0 +1,380 @@
+/* ---------------------------------------------------------------------------
+   Custom styles layered on top of the Minimal Light theme.
+   Edit this file to change spacing, colors, and section styling.
+   --------------------------------------------------------------------------- */
+
+:root {
+  --accent: #043361;
+  --muted: #6b7280;
+  --rule: #e5e7eb;
+  --chip-bg: #f3f4f6;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent: #3eb7f0;
+    --muted: #9aa0aa;
+    --rule: #33353f;
+    --chip-bg: #2a2c37;
+  }
+}
+
+body {
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+/* ---- left column ---------------------------------------------------------- */
+
+header h1 {
+  font-size: 23px;
+  margin: 0 0 6px;
+  line-height: 1.25;
+}
+
+header position {
+  display: block;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+header email {
+  display: inline-block;
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 6px;
+  word-break: break-all;
+}
+
+.social-icons {
+  margin: 14px 0 0;
+}
+
+.social-icons a {
+  height: 2rem;
+  width: 2rem;
+  line-height: 2.1rem;
+  font-size: 1.05rem;
+  margin-right: 0.4rem;
+}
+
+.section-nav {
+  margin-top: 22px;
+  padding-top: 16px;
+  border-top: 1px solid var(--rule);
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.section-nav a {
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.section-nav a:hover {
+  color: var(--accent);
+}
+
+/* ---- section headings ----------------------------------------------------- */
+
+section h2 {
+  font-size: 1.35rem;
+  letter-spacing: -0.01em;
+  margin: 46px 0 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--rule);
+  scroll-margin-top: 20px;
+}
+
+section > h2:first-of-type,
+section h2#research {
+  margin-top: 34px;
+}
+
+.section-note {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin: -6px 0 18px;
+}
+
+/* ---- research themes ------------------------------------------------------ */
+
+.theme {
+  margin: 0 0 34px;
+  scroll-margin-top: 20px;
+}
+
+.theme-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0 0 8px;
+  line-height: 1.4;
+}
+
+.theme-num {
+  display: inline-block;
+  min-width: 1.5em;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.theme-summary p {
+  margin: 0 0 12px;
+}
+
+.theme-papers {
+  list-style: none;
+  margin: 0 0 0 1.5em;
+  padding: 0;
+  border-left: 2px solid var(--rule);
+}
+
+.theme-papers li {
+  padding: 0 0 0 14px;
+  margin: 0 0 9px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.tp-title {
+  display: block;
+}
+
+.tp-venue {
+  color: var(--muted);
+  font-size: 0.82rem;
+  margin-right: 8px;
+}
+
+.tp-link {
+  font-size: 0.78rem;
+  margin-right: 7px;
+}
+
+/* ---- news ----------------------------------------------------------------- */
+
+.news-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.news-list li {
+  display: flex;
+  gap: 14px;
+  margin: 0 0 10px;
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.news-date {
+  flex: 0 0 5.6em;
+  color: var(--muted);
+  font-size: 0.82rem;
+  padding-top: 2px;
+}
+
+.news-extra {
+  display: none !important;
+}
+
+.news-extra.news-shown {
+  display: flex !important;
+}
+
+.news-toggle {
+  margin: 4px 0 0 0;
+  font-size: 0.82rem;
+}
+
+/* ---- publications --------------------------------------------------------- */
+
+.pub-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: pub;
+}
+
+.pub {
+  position: relative;
+  padding: 0 0 0 2.1em;
+  margin: 0 0 20px;
+}
+
+.pub::before {
+  counter-increment: pub;
+  content: counter(pub) ".";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.pub-title {
+  font-weight: 600;
+  line-height: 1.45;
+  margin-bottom: 2px;
+}
+
+.pub-highlight .pub-title::after {
+  content: "featured";
+  display: inline-block;
+  margin-left: 8px;
+  padding: 1px 7px;
+  border-radius: 10px;
+  background: var(--chip-bg);
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  vertical-align: 2px;
+}
+
+.pub-authors {
+  font-size: 0.86rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.pub-venue {
+  font-size: 0.88rem;
+  margin-top: 1px;
+}
+
+.pub-links {
+  margin-top: 5px;
+}
+
+.pub-links a {
+  font-size: 0.76rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: 2px 8px;
+  margin-right: 6px;
+  display: inline-block;
+}
+
+.pub-links a:hover {
+  border-color: var(--accent);
+}
+
+/* ---- talks ---------------------------------------------------------------- */
+
+.talk-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.talk-list li {
+  margin: 0 0 13px;
+}
+
+.talk-title {
+  display: block;
+  font-size: 0.94rem;
+  line-height: 1.45;
+}
+
+.talk-meta {
+  display: block;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+/* ---- background grid ------------------------------------------------------ */
+
+.cv-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 26px 30px;
+}
+
+.cv-heading {
+  font-size: 0.78rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 10px;
+  font-weight: 600;
+}
+
+.cv-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cv-list li {
+  display: flex;
+  gap: 12px;
+  margin: 0 0 12px;
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.cv-when {
+  flex: 0 0 5.6em;
+  color: var(--muted);
+  font-size: 0.8rem;
+  padding-top: 2px;
+}
+
+.cv-note {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.contact-line {
+  font-size: 0.92rem;
+}
+
+.site-footnote {
+  margin-top: 44px;
+  padding-top: 14px;
+  border-top: 1px solid var(--rule);
+  color: var(--muted);
+}
+
+/* ---- narrow screens ------------------------------------------------------- */
+
+@media print, screen and (max-width: 960px) {
+  header {
+    text-align: left;
+  }
+
+  .image.avatar img {
+    padding: 0 16px 8px 0;
+  }
+
+  .section-nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px 18px;
+  }
+}
+
+@media print, screen and (max-width: 640px) {
+  .cv-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .news-list li,
+  .cv-list li {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .theme-papers {
+    margin-left: 0;
+  }
+}
