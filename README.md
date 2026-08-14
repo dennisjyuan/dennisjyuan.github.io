@@ -1,60 +1,45 @@
-<a href="https://jekyll-themes.com">
-<img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" >
-</a>
+# dennisjyuan.github.io
 
-# Orbit
-> This theme is designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/). 
-> Visit her [website](http://themes.3rdwavemedia.com/) for more themes.
+Personal academic homepage. Jekyll, built automatically by GitHub Pages on every
+push to `master`. Based on the [Minimal Light](https://github.com/yaoyao-liu/minimal-light)
+theme, extended with a research-theme grouping.
 
-I have made this into a Jekyll Theme. Checkout the live demo [here](https://webjeda.com/online-cv/).
+## Where to edit things
 
-<table>
-  <tr>
-    <th>Desktop</th>
-    <th>Mobile</th>
-  </tr>
-  <tr>
-    <td>
-        <img src="https://webjeda.com/online-cv/assets/images/desktop.png?raw=true" width="600"/>
-    </td>
-    <td>
-        <img src="https://webjeda.com/online-cv/assets/images/mobile.png?raw=true" width="250"/>
-    </td>
-  </tr>
-</table>
+You almost never need to touch HTML. Content lives in three YAML files:
 
-## Installation
+| I want to...                        | Edit                                        |
+| ----------------------------------- | ------------------------------------------- |
+| Add a paper                         | `_data/publications.yml`                    |
+| Add/rename a research theme         | `_data/themes.yml`                          |
+| Add a news item                     | `_data/news.yml`                            |
+| Change the About text               | `index.md`                                  |
+| Change name, title, email, links    | `_config.yml`                               |
+| Change appointments/education/awards| `_includes/background.md`                   |
+| Change talks                        | `_includes/talks.md`                        |
+| Change spacing, colors, type        | `assets/css/custom.css`                     |
 
-* [Fork](https://github.com/sharu725/online-cv/fork) the repository
-* Delete the `gh-pages` branch
-* Re-create the `gh-pages` branch
-* Go to settings and set Github Pages source as master.
-* Your new site should be ready at `https://username.github.io/online-cv/`
+### Adding a publication
 
-Change all the details from one place: ``_data/data.yml``
+Copy an existing block at the top of `_data/publications.yml`. The `theme:` field
+decides which research theme it appears under; it must match an `id:` in
+`_data/themes.yml`. Use `theme: other` to keep a paper out of the Research
+section while still listing it under Publications. Wrap your own name in
+`<strong>` tags. Set `highlight: true` to give it a "featured" badge.
 
-Watch my [video](https://www.youtube.com/embed/T2nx6tj-ZH4) on installation.
+Order in the file is the order on the page, so put new papers first.
 
-## Skins
+### Careful with YAML
 
-There are 6 color schemes available:
+Indentation is significant and a stray tab or unquoted colon will fail the build.
+If the site stops updating after a push, check the Actions tab on GitHub for the
+build error.
 
-| Blue | Turquoise | Green |
-|---------|---------|---------|
-| <img src="https://webjeda.com/online-cv/assets/images/blue.jpg" width="300"/> | <img src="https://webjeda.com/online-cv/assets/images/turquoise.jpg" width="300"/> | <img src="https://webjeda.com/online-cv/assets/images/green.jpg" width="300"/> |
+## Previewing locally (optional)
 
-| Berry | Orange | Ceramic |
-|---------|---------|---------|
-| <img src="https://webjeda.com/online-cv/assets/images/berry.jpg" width="300"/> | <img src="https://webjeda.com/online-cv/assets/images/orange.jpg" width="300"/> | <img src="https://webjeda.com/online-cv/assets/images/ceramic.jpg" width="300"/> |
+```
+bundle install
+bundle exec jekyll serve
+```
 
-## Credits
-
-Thanks to [Nelson Estevão](https://github.com/nelsonmestevao) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=nelsonmestevao).
-
-Thanks to [t-h-e(sfrost)](https://github.com/t-h-e) for all the [contributions](https://github.com/sharu725/online-cv/commits?author=t-h-e).
-
-Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com).
-
-## License
-
-This project is licensed under the [MIT license](LICENSE.txt).
+Then open http://localhost:4000.
