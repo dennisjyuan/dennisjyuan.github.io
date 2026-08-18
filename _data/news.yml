@@ -19,7 +19,7 @@ main:
 
 
   - date: "Jul 2026"
-    text: 'Named a MacMillan Postdoctoral Fellow (2026&ndash;2028) by the <a href="https://www.csncg.org/training-programs">MacMillan Center for the Study of the Non-coding Cancer Genome</a> at the New York Genome Center.'
+    text: 'Named a MacMillan Postdoctoral Fellow (2026&ndash;present) by the <a href="https://www.csncg.org/training-programs">MacMillan Center for the Study of the Non-coding Cancer Genome</a> at the New York Genome Center.'
 
   - date: "Jan 2026"
     text: 'Our finding that pre-cancerous states are already present in seemingly normal aging tissue was covered by the <a href="https://news.weill.cornell.edu/news/2026/01/scientists-identify-pre-cancerous-states-in-seemingly-normal-aging-tissues">WCM Newsroom</a> and the <a href="https://news.cornell.edu/stories/2026/01/pre-cancerous-states-identified-seemingly-normal-aging-tissues">Cornell Chronicle</a>.'
@@ -36,9 +36,6 @@ main:
 
   - date: "Oct 2025"
     text: 'Preprint out: <a href="https://doi.org/10.1101/2025.10.11.681805">large-scale single-cell phylogenetic mapping of clonal evolution in the human aging esophagus</a>.'
-
-  - date: "Aug 2025"
-    text: 'Preprint out: <a href="https://doi.org/10.1101/2025.08.11.669689">paired plus-minus sequencing</a>, an ultra-high throughput method for dual-strand DNA sequencing.'
 
   - date: "May 2024"
     text: 'scG2P preprint posted to <a href="https://doi.org/10.1101/2024.05.22.595241">bioRxiv</a>.'

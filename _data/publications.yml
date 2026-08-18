@@ -37,7 +37,8 @@ main:
         url: https://doi.org/10.1101/2025.10.31.685648
 
   - title: "Large-scale single-cell phylogenetic mapping of clonal evolution in the human aging esophagus"
-    authors: "Prieto T, <strong>Yuan DJ</strong>, Zinno J, Hughes C, Midler N, Kao S, Huuhtanen J, Raviram R, Fotopoulou F, Ruthen N, Rajagopalan S, Schiffman JS, D'Avino AR, Yoon SH, Sotelo J, Omans ND, Wheeler N, Garces A, Pradhan B, Cheng AP, Robine N, Potenski C, Godfrey K, Kakiuchi N, Yokoyama A, Ogawa S, Abrams J, Raimondi I, Landau DA"
+    authors: "Prieto T*, <strong>Yuan DJ</strong>*, Zinno J, Hughes C, Midler N, Kao S, Huuhtanen J, Raviram R, Fotopoulou F, Ruthen N, Rajagopalan S, Schiffman JS, D'Avino AR, Yoon SH, Sotelo J, Omans ND, Wheeler N, Garces A, Pradhan B, Cheng AP, Robine N, Potenski C, Godfrey K, Kakiuchi N, Yokoyama A, Ogawa S, Abrams J, Raimondi I, Landau DA"
+    note: "*Co-first authors"
     venue: "<em>bioRxiv</em> (preprint)"
     year: 2025
     venue_short: "bioRxiv"

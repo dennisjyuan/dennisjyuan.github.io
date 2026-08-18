@@ -12,6 +12,7 @@
       <li>
         <span class="tp-title">{{ paper.title }}</span>
         <span class="tp-venue">{{ paper.venue_short }} {{ paper.year }}</span>
+        {% if paper.note %}<span class="tp-note">{{ paper.note }}</span>{% endif %}
         {% if paper.links %}
         {% for link in paper.links %}<a class="tp-link" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>{% endfor %}
         {% endif %}

@@ -154,6 +154,13 @@ section h2#research {
   margin-right: 7px;
 }
 
+.tp-note {
+  font-size: 0.76rem;
+  color: var(--muted);
+  font-style: italic;
+  margin-right: 8px;
+}
+
 /* ---- news ----------------------------------------------------------------- */
 
 .news-list {
@@ -193,7 +200,7 @@ section h2#research {
 
 .cover-art img {
   display: block;
-  width: 118px;
+  width: 84px;
   height: auto;
   border-radius: 2px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.18);
@@ -309,6 +316,12 @@ section h2#research {
   font-size: 0.86rem;
   color: var(--muted);
   line-height: 1.5;
+}
+
+.pub-note {
+  font-size: 0.78rem;
+  color: var(--muted);
+  font-style: italic;
 }
 
 .pub-venue {
@@ -448,7 +461,7 @@ section h2#research {
 
   .cover-art,
   .cover-art img {
-    width: 120px;
+    width: 84px;
   }
 
   .theme-papers {

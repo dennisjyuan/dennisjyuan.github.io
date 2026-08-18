@@ -7,6 +7,7 @@
   <li class="pub{% if paper.highlight %} pub-highlight{% endif %}">
     <div class="pub-title">{{ paper.title }}</div>
     <div class="pub-authors">{{ paper.authors }}</div>
+    {% if paper.note %}<div class="pub-note">{{ paper.note }}</div>{% endif %}
     <div class="pub-venue">{{ paper.venue }}, {{ paper.year }}</div>
     {% if paper.links %}
     <div class="pub-links">
