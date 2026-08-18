@@ -1,15 +1,32 @@
 # ---------------------------------------------------------------------------
-# News items, newest first. Only the first `news_visible` items (set in
-# index.md) are shown; the rest collapse behind a "show more" toggle.
+# News items, newest first. Only the first 4 are shown; the rest collapse
+# behind a "show more" toggle.
 # ---------------------------------------------------------------------------
 
+# Cover feature card, shown at the top of the News section.
+# Set `enabled: false` to hide it without deleting anything.
+cover:
+  enabled: true
+  image: ./assets/img/news/cd-cover-16-4.jpg
+  alt: "Cover of Cancer Discovery volume 16 issue 4"
+  link: https://aacrjournals.org/cancerdiscovery/issue/16/4
+  heading: 'Featured on the cover of <em>Cancer Discovery</em> 16(4), April 2026'
+  credit: >
+    Cover image reproduced from <em>Cancer Discovery</em> 16(4),
+    &copy; American Association for Cancer Research. Artwork by Bianca Dunn.
+
 main:
+
 
   - date: "Jul 2026"
     text: 'Named a MacMillan Postdoctoral Fellow (2026&ndash;2028) by the <a href="https://www.csncg.org/training-programs">MacMillan Center for the Study of the Non-coding Cancer Genome</a> at the New York Genome Center.'
 
   - date: "Jan 2026"
-    text: 'Our finding that pre-cancerous states are already present in seemingly normal aging tissue was covered by the <a href="https://news.cornell.edu/stories/2026/01/pre-cancerous-states-identified-seemingly-normal-aging-tissues">Cornell Chronicle</a>.'
+    text: 'Our finding that pre-cancerous states are already present in seemingly normal aging tissue was covered by the <a href="https://news.weill.cornell.edu/news/2026/01/scientists-identify-pre-cancerous-states-in-seemingly-normal-aging-tissues">WCM Newsroom</a> and the <a href="https://news.cornell.edu/stories/2026/01/pre-cancerous-states-identified-seemingly-normal-aging-tissues">Cornell Chronicle</a>.'
+    image: ./assets/img/news/clonal-mosaicism.jpg
+    image_alt: "Illustration of mutation-carrying cells interspersed through normal aging tissue"
+    image_credit: "Image: Weill Cornell Medicine Newsroom"
+    image_link: https://news.weill.cornell.edu/news/2026/01/scientists-identify-pre-cancerous-states-in-seemingly-normal-aging-tissues
 
   - date: "Dec 2025"
     text: 'Our scG2P paper is published in <a href="https://doi.org/10.1158/2159-8290.CD-24-0853"><em>Cancer Discovery</em></a>.'

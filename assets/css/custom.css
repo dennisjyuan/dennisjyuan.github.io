@@ -177,6 +177,74 @@ section h2#research {
   padding-top: 2px;
 }
 
+.cover-card {
+  padding: 16px 18px;
+  margin: 0 0 24px;
+  border: 1px solid var(--rule);
+  border-radius: 5px;
+  background: var(--chip-bg);
+  overflow: hidden; /* contains the floated cover art */
+}
+
+.cover-art {
+  float: left;
+  margin: 2px 18px 8px 0;
+}
+
+.cover-art img {
+  display: block;
+  width: 118px;
+  height: auto;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.18);
+}
+
+.cover-heading {
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 7px;
+  padding-top: 2px;
+}
+
+.cover-summary {
+  font-size: 0.83rem;
+  line-height: 1.6;
+  margin: 0 0 9px;
+}
+
+.cover-credit {
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: var(--muted);
+  margin: 0;
+}
+
+.news-thumb {
+  flex: 0 0 108px;
+  margin-left: auto;
+  align-self: flex-start;
+}
+
+.news-thumb img {
+  display: block;
+  width: 108px;
+  height: auto;
+  border-radius: 3px;
+  border: 1px solid var(--rule);
+}
+
+.news-thumb a:hover img {
+  border-color: var(--accent);
+}
+
+.thumb-credit {
+  display: block;
+  font-size: 0.65rem;
+  line-height: 1.4;
+  color: var(--muted);
+  margin-top: 3px;
+}
+
 .news-extra {
   display: none !important;
 }
@@ -372,6 +440,15 @@ section h2#research {
   .cv-list li {
     flex-direction: column;
     gap: 0;
+  }
+
+  .news-thumb {
+    margin: 8px 0 0 0;
+  }
+
+  .cover-art,
+  .cover-art img {
+    width: 120px;
   }
 
   .theme-papers {
