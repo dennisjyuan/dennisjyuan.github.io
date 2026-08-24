@@ -19,23 +19,35 @@ main:
 
 
   - date: "Jul 2026"
-    text: 'Named a MacMillan Postdoctoral Fellow (2026&ndash;present) by the <a href="https://www.csncg.org/training-programs">MacMillan Center for the Study of the Non-coding Cancer Genome</a> at the New York Genome Center.'
+    text: 'Dennis was named a MacMillan Postdoctoral Fellow (2026&ndash;present) by the <a href="https://www.csncg.org/early-career-development-trainees-1">MacMillan Center for the Study of the Non-coding Cancer Genome</a> at the New York Genome Center.'
 
   - date: "Jan 2026"
-    text: 'Our finding that pre-cancerous states are already present in seemingly normal aging tissue was covered by the <a href="https://news.weill.cornell.edu/news/2026/01/scientists-identify-pre-cancerous-states-in-seemingly-normal-aging-tissues">WCM Newsroom</a> and the <a href="https://news.cornell.edu/stories/2026/01/pre-cancerous-states-identified-seemingly-normal-aging-tissues">Cornell Chronicle</a>.'
+    text: 'Dennis and colleagues showed that pre-cancerous states are already present in seemingly normal aging tissue, work covered by the <a href="https://news.weill.cornell.edu/news/2026/01/scientists-identify-pre-cancerous-states-in-seemingly-normal-aging-tissues">WCM Newsroom</a> and the <a href="https://news.cornell.edu/stories/2026/01/pre-cancerous-states-identified-seemingly-normal-aging-tissues">Cornell Chronicle</a>.'
     image: ./assets/img/news/clonal-mosaicism.jpg
     image_alt: "Illustration of mutation-carrying cells interspersed through normal aging tissue"
     image_credit: "Image: Weill Cornell Medicine Newsroom"
     image_link: https://news.weill.cornell.edu/news/2026/01/scientists-identify-pre-cancerous-states-in-seemingly-normal-aging-tissues
 
   - date: "Dec 2025"
-    text: 'Our scG2P paper is published in <a href="https://doi.org/10.1158/2159-8290.CD-24-0853"><em>Cancer Discovery</em></a>.'
+    text: 'Dennis and colleagues published scG2P in <a href="https://doi.org/10.1158/2159-8290.CD-24-0853"><em>Cancer Discovery</em></a>.'
 
   - date: "Dec 2025"
-    text: 'Recognized by the New York Genome Center for <a href="https://landaulab.org/lab-news">Outstanding Contribution by a Postdoctoral Fellow</a>.'
+    text: 'Dennis was recognized by the New York Genome Center for <a href="https://landaulab.org/lab-news">Outstanding Contribution by a Postdoctoral Fellow</a>.'
 
   - date: "Oct 2025"
-    text: 'Preprint out: <a href="https://doi.org/10.1101/2025.10.11.681805">large-scale single-cell phylogenetic mapping of clonal evolution in the human aging esophagus</a>.'
+    text: 'Dennis presented at the American Society of Human Genetics (ASHG) Annual Meeting in Boston.'
+
+  - date: "Oct 2025"
+    text: 'Dennis and colleagues posted a preprint on <a href="https://doi.org/10.1101/2025.10.11.681805">large-scale single-cell phylogenetic mapping of clonal evolution in the human aging esophagus</a>.'
+
+  - date: "Jun 2024"
+    text: 'Dennis presented at the Festival of Genomics in Boston.'
 
   - date: "May 2024"
-    text: 'scG2P preprint posted to <a href="https://doi.org/10.1101/2024.05.22.595241">bioRxiv</a>.'
+    text: 'Dennis and colleagues posted the scG2P preprint to <a href="https://doi.org/10.1101/2024.05.22.595241">bioRxiv</a>.'
+
+  - date: "Feb 2024"
+    text: 'Dennis presented and won Best Poster at the Probing Human Disease Using Single-Cell Technologies Conference in Canc&uacute;n.'
+
+  - date: "Feb 2024"
+    text: 'Dennis presented a Late Breaking Abstract at Advances in Genome Biology and Technology (AGBT) in Orlando.'
