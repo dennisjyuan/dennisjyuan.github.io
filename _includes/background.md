@@ -14,7 +14,7 @@
   <div class="cv-block">
     <h3 class="cv-heading">Education</h3>
     <ul class="cv-list">
-      <li><span class="cv-when">2015&ndash;2021</span><span class="cv-what"><strong>PhD, Biomedical Engineering</strong><br>Columbia University<br><span class="cv-note">Thesis: Mechanical regulation of T cell activation (Lance Kam, PhD)</span></span></li>
+      <li><span class="cv-when">2017&ndash;2021</span><span class="cv-what"><strong>PhD, Biomedical Engineering</strong><br>Columbia University<br><span class="cv-note">Thesis: Mechanical regulation of T cell activation (Lance Kam, PhD)</span></span></li>
       <li><span class="cv-when">2015&ndash;2017</span><span class="cv-what"><strong>MSc, Biomedical Engineering</strong><br>Columbia University</span></li>
       <li><span class="cv-when">2011&ndash;2015</span><span class="cv-what"><strong>BSc, Bioengineering</strong>, magna cum laude<br>University of California, Los Angeles</span></li>
     </ul>
