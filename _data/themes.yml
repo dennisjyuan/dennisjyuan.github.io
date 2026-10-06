@@ -12,23 +12,21 @@ main:
   - id: genotype-phenotype
     name: Single-cell genotype-to-phenotype mapping in normal tissues
     summary: |
-      Somatic mutations accumulate in every tissue as we age, but a mutation is only
-      interesting if you can see what it does to the cell carrying it. Sequencing DNA
-      and RNA from the same single cell has been the bottleneck. We built scG2P, which
-      co-captures somatic DNA mutations and mRNA transcripts from the same cell at
-      scale. Applied to esophageal tissue from older adults, more than half of over
-      10,000 cells carried clonal driver mutations, predominantly in <em>NOTCH1</em> and
-      <em>TP53</em>. NOTCH1-mutant clones disproportionately occupy immature
-      differentiation states, staying in the tissue and continuing to divide instead of
-      maturing and shedding from the surface.
+      Somatic mutations accumulate in every tissue as we age, and a key insight is how a
+      genotype contributes to cell state and behavior. We built scG2P to co-capture somatic
+      DNA mutations and mRNA transcripts from the same cell at scale. Applied to esophageal
+      tissue from older adults, more than half of cells carried clonal driver mutations. In
+      this mutation landscape, we revealed that <em>NOTCH1</em>- and <em>TP53</em>-mutant
+      clones disproportionately occupy immature differentiation states, staying in the tissue
+      and continuing to divide instead of maturing and shedding from the surface.
 
   - id: clonal-evolution
     name: Retracing evolutionary histories in aging and pre-cancerous tissues
     summary: |
-      Normal tissue is a competition between clones playing out over decades. Using
-      large-scale single-cell phylogenetics, we reconstruct when clones arose, how fast
-      they expanded, and which ones displaced their neighbors, turning a static snapshot
-      of mutations into a history of the tissue.
+      Clonal competition occurs in normal tissue over decades. Using large-scale single-cell
+      phylogenetics, we reconstruct a timeline of when clones arose, which mutations initiated
+      expansion and which genetic events follow, and how fast clones expanded, turning a
+      static snapshot of mutations into a history of the tissue.
 
   - id: t-cell
     name: Earlier work &mdash; T cell mechanobiology
