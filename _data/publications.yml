@@ -5,11 +5,24 @@
 #            _data/themes.yml). Use "other" to keep it out of the Research
 #            section but still list it under Publications.
 #   authors: HTML is allowed -- wrap your own name in <strong> tags.
+#   selected: true puts it under "Selected publications" (first / co-first author).
 #   links:   any label/url pairs you want shown as buttons.
 # Order in this file is the order shown on the page (newest first).
 # ---------------------------------------------------------------------------
 
 main:
+
+  - title: "Comprehensive benchmarking of somatic mutation detection by the SMaHT Network"
+    authors: "Abyzov A, Natu A, Voshall A, Sedeño-Cortés AE, Burn AH, Boyle AP, et al., <strong>Yuan DJ</strong>, et al., SMaHT Network"
+    venue: "<em>Cell</em>, 189(21):6594-6612"
+    year: 2026
+    venue_short: "Cell"
+    theme: smaht
+    links:
+      - label: Paper
+        url: https://www.cell.com/cell/fulltext/S0092-8674(26)01135-9
+      - label: Preprint
+        url: https://doi.org/10.1101/2025.10.09.678885
 
   - title: "Genotype-to-phenotype mapping of somatic clonal mosaicism via single-cell co-capture of DNA mutations and mRNA transcripts"
     authors: "<strong>Yuan DJ</strong>, Zinno J, Botella T, Dhingra D, Wang S, Hawkins AG, Swett A, Sotelo J, Raviram R, Hughes C, Potenski C, Godfrey KD, Ainsworth KM, Xu S, Que J, Abrams JA, Yokoyama A, Kakiuchi N, Ogawa S, Landau DA"
@@ -17,6 +30,7 @@ main:
     year: 2026
     venue_short: "Cancer Discov"
     theme: genotype-phenotype
+    selected: true
     highlight: true
     links:
       - label: Paper
@@ -31,7 +45,7 @@ main:
     venue: "<em>bioRxiv</em> (preprint)"
     year: 2025
     venue_short: "bioRxiv"
-    theme: clonal-evolution
+    theme: smaht
     links:
       - label: Preprint
         url: https://doi.org/10.1101/2025.10.31.685648
@@ -43,6 +57,7 @@ main:
     year: 2025
     venue_short: "bioRxiv"
     theme: clonal-evolution
+    selected: true
     links:
       - label: Preprint
         url: https://doi.org/10.1101/2025.10.11.681805
@@ -57,12 +72,43 @@ main:
       - label: Preprint
         url: https://doi.org/10.1101/2025.08.11.669689
 
+  - title: "The Somatic Mosaicism across Human Tissues Network"
+    authors: "Coorens THH, Oh JW, Choi YA, Lim NS, Zhao B, Voshall A, Abyzov A, et al., Vaccarino FM, SMaHT Network (incl. <strong>Yuan DJ</strong>)"
+    venue: "<em>Nature</em>, 643(8070):47-59"
+    year: 2025
+    venue_short: "Nature"
+    theme: smaht
+    links:
+      - label: Paper
+        url: https://doi.org/10.1038/s41586-025-09096-7
+
+  - title: "Measuring longitudinal genome-wide clonal evolution of pediatric acute lymphoblastic leukemia at single-cell resolution"
+    authors: "Pang Y, Prieto T, Gonzalez-Pena V, Aragon A, Xia Y, Kao S, Rajagopalan S, Zinno J, Quentin J, Laval J, <strong>Yuan DJ</strong>, Omans N, Klein D, MacKay M, De Vlaminck I, Easton J, Evans W, Landau DA, Gawad C"
+    venue: "<em>bioRxiv</em> (preprint)"
+    year: 2025
+    venue_short: "bioRxiv"
+    theme: other
+    links:
+      - label: Preprint
+        url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11957134/
+
+  - title: "Programmable endonuclease combined with isothermal polymerase amplification to selectively enrich for rare mutant allele fractions"
+    authors: "Chen J, Qiu T, Mauk MG, Su Z, Fan Y, <strong>Yuan DJ</strong>, Zhou Q, Qiao Y, Bau HH, Ying J, Song J"
+    venue: "<em>Chinese Chemical Letters</em>, 33(8):4126-4132"
+    year: 2022
+    venue_short: "Chin Chem Lett"
+    theme: other
+    links:
+      - label: Paper
+        url: https://www.sciencedirect.com/science/article/pii/S1001841721010093
+
   - title: "Biphasic response of T cell activation to substrate stiffness"
     authors: "<strong>Yuan DJ</strong>, Shi L, Kam LC"
     venue: "<em>Biomaterials</em>, 273:120797"
     year: 2021
     venue_short: "Biomaterials"
     theme: t-cell
+    selected: true
     links:
       - label: Paper
         url: https://doi.org/10.1016/j.biomaterials.2021.120797

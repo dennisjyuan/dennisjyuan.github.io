@@ -28,6 +28,14 @@ main:
       expansion and which genetic events follow, and how fast clones expanded, turning a
       static snapshot of mutations into a history of the tissue.
 
+  - id: smaht
+    name: Somatic mosaicism across tissues (SMaHT Network)
+    summary: |
+      As part of the NIH Somatic Mosaicism across Human Tissues (SMaHT) Network, we contribute
+      single-cell DNA sequencing to a community effort to catalog somatic mutations across the
+      human body &mdash; benchmarking how well different sequencing technologies and analysis
+      methods detect them, and mapping mosaicism cell by cell across tissues.
+
   - id: t-cell
     name: Earlier work &mdash; T cell mechanobiology
     summary: |
