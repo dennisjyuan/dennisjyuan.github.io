@@ -5,7 +5,7 @@
 #            _data/themes.yml). Use "other" to keep it out of the Research
 #            section but still list it under Publications.
 #   authors: HTML is allowed -- wrap your own name in <strong> tags.
-#   selected: true puts it under "Selected publications" (first / co-first author).
+#   selected: true puts it under "Selected publications" (first author / contributed equally).
 #   links:   any label/url pairs you want shown as buttons.
 # Order in this file is the order shown on the page (newest first).
 # ---------------------------------------------------------------------------
@@ -52,7 +52,7 @@ main:
 
   - title: "Large-scale single-cell phylogenetic mapping of clonal evolution in the human aging esophagus"
     authors: "Prieto T*, <strong>Yuan DJ</strong>*, Zinno J, Hughes C, Midler N, Kao S, Huuhtanen J, Raviram R, Fotopoulou F, Ruthen N, Rajagopalan S, Schiffman JS, D'Avino AR, Yoon SH, Sotelo J, Omans ND, Wheeler N, Garces A, Pradhan B, Cheng AP, Robine N, Potenski C, Godfrey K, Kakiuchi N, Yokoyama A, Ogawa S, Abrams J, Raimondi I, Landau DA"
-    note: "*Co-first authors"
+    note: "*Contributed equally"
     venue: "<em>bioRxiv</em> (preprint)"
     year: 2025
     venue_short: "bioRxiv"
