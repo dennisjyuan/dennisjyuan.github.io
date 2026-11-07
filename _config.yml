@@ -24,7 +24,7 @@ twitter: https://twitter.com/dennisjyuan
 
 # Images
 avatar: ./assets/img/avatar.jpg
-favicon: ./favicon.ico
+favicon: ./favicon.ico?v=2
 
 # Theme options
 enable_footnote: true
